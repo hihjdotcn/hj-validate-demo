@@ -1,7 +1,7 @@
 <!--
  * @Description: entry page
  * @LastEditors: hj
- * @LastEditTime: 2022-05-16 09:43:58
+ * @LastEditTime: 2022-05-16 10:12:18
 -->
 <template>
   <div id="app">
@@ -43,7 +43,7 @@
 </template>
 
 <script>
-import { vPhone,vTelephone,vUserName,vPassword,vChinese,vEmail,vIdCard, vPostCard,vURI} from './utils/index'
+import { vPhone,vTelephone,vUserName,vPassword,vChinese,vEmail,vIdCard, vPostCard,vURI} from 'hj-validate'
 
 export default {
   name: 'App',
